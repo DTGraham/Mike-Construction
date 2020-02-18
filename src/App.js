@@ -1,5 +1,8 @@
 import React from "react";
 import "./index.css";
+import Projects from "./projects";
+import { Router, Route, Link, browserHistory, IndexRoute } from "react-router";
+import smoothscroll from "smoothscroll-polyfill";
 
 class App extends React.Component {
   // constructor(props) {
@@ -7,6 +10,8 @@ class App extends React.Component {
   // }
 
   render() {
+    // Implements smooth scroll feature of chrome in safari and IE
+    smoothscroll.polyfill();
     return (
       <div>
         <div id="react-nav"></div>
@@ -21,7 +26,10 @@ class App extends React.Component {
 
           <div class="d-flex heading-flex">
             <button type="button" class="btn btn-warning">
-              Request a Quote
+              {" "}
+              <a href="javascript: document.body.scrollIntoView(false);">
+                Request a Quote
+              </a>
             </button>
           </div>
         </div>
@@ -45,10 +53,14 @@ class App extends React.Component {
             </div>
           </div>
           <div class="about-row-flex">
-            <div class="about-column-flex">
-              <img class="about-img" src="/About-2-photo.jpg" alt="not found" />
+            <div class="about-column-flex bottom">
+              <img
+                class="about-img desktop"
+                src="/About-2-photo.jpg"
+                alt="not found"
+              />
             </div>
-            <div class="about-column-flex">
+            <div class="about-column-flex bottom">
               <h1>About 2</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -64,7 +76,7 @@ class App extends React.Component {
         </div>
 
         <div class="about-contact container">
-          <h1>Request a Quote!</h1>
+          <h1>Request a Quote</h1>
 
           <form class="" action="index.html" method="post">
             <div class="about-contact-column-flex">
@@ -77,11 +89,11 @@ class App extends React.Component {
                 <input type="text" name="" placeholder="Your Email" />
               </div>
               <div class="d-flex contact">
-                <label for="">Phone Number</label>
+                <label for="">Phone</label>
                 <input type="text" name="" placeholder="Your Phone Number" />
               </div>
               <div class="d-flex contact">
-                <label for="">Describe your project</label>
+                <label for="">Project</label>
                 <input
                   type="textarea"
                   name=""
@@ -100,7 +112,7 @@ class App extends React.Component {
           </form>
         </div>
 
-        <div class="d-flex bottom-nav">
+        <div class="d-flex bottom-nav navbar ">
           <p>Michael Earnest Rusk</p>
           <p>519-373-4402</p>
           <p>RR # 4 Eugenia, ON</p>

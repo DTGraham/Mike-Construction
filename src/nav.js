@@ -1,52 +1,48 @@
 import React from "react";
 import "./index.css";
-import ReactDOM from "react-dom";
-import { Router, Route, Link, browserHistory, IndexRoute } from "react-router";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import App from "./App";
 
 class Nav extends React.Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
-        <div class="container">
-          <div class="d-flex flex-grow-1">
-            <p class="navbar-brand d-none d-lg-inline-block">
-              Michael Earnest Rusk
-            </p>
-            <p class="navbar-brand-two mx-auto d-lg-none d-inline-block">
-              Michael Earnest Rusk
-            </p>
-            <div class="w-100 text-right"></div>
-          </div>
-          <div
-            class="collapse navbar-collapse flex-grow-1 text-right"
-            id="myNavbar"
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-right">
+          <a class="navbar-brand" href="#">
+            Michael Earnest Rusk
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item active">
-                <a href="#about-top" class="nav-link m-2 menu-item nav-active">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item active">
-                <a href="#project-top" class="nav-link m-2 menu-item">
-                  Services
-                </a>
-              </li>
-              <li class="nav-item active">
-                <a href="#contact-top" class="nav-link m-2 menu-item">
-                  Projects
-                </a>
-              </li>
-              <li class="nav-item active">
-                <a href="#contact-top" class="nav-link m-2 menu-item">
-                  Contact
-                </a>
-              </li>
-            </ul>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">
+                Home <span class="sr-only">(current)</span>
+              </a>
+              <a class="nav-item nav-link active" href="#">
+                Services
+              </a>
+              <a class="nav-item nav-link active" href="#">
+                Projects
+              </a>
+              <a class="nav-item nav-link active" href="#">
+                Contact
+              </a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     );
   }
 }
+
 export default Nav;
