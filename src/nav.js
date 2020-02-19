@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 
 class Nav extends React.Component {
@@ -25,18 +25,19 @@ class Nav extends React.Component {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">
+              <Link class="nav-item nav-link active" to="/">
                 Home <span class="sr-only">(current)</span>
-              </a>
-              <a class="nav-item nav-link active" href="#">
-                Services
-              </a>
-              <a class="nav-item nav-link active" href="#">
-                Projects
-              </a>
-              <a class="nav-item nav-link active" href="#">
-                Contact
-              </a>
+              </Link>
+
+              <Link class="nav-item nav-link active" to="/services">
+                Services <span class="sr-only">(current)</span>
+              </Link>
+              <Link class="nav-item nav-link active" to="/projects">
+                Projects <span class="sr-only">(current)</span>
+              </Link>
+              <Link class="nav-item nav-link active" to="/contact">
+                Contact <span class="sr-only">(current)</span>
+              </Link>
             </div>
           </div>
         </nav>

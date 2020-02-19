@@ -1,10 +1,8 @@
 import React from "react";
 import "./index.css";
-import Projects from "./projects";
 import smoothscroll from "smoothscroll-polyfill";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 
-export default class App extends React.Component {
+class Home extends React.Component {
   // constructor(props) {
   //   super(props);
   // }
@@ -14,7 +12,6 @@ export default class App extends React.Component {
     smoothscroll.polyfill();
     return (
       <div>
-        <div id="react-nav"></div>
         <div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-right">
             <a class="navbar-brand" href="#">
@@ -34,19 +31,18 @@ export default class App extends React.Component {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <Link class="nav-item nav-link active" to="/">
+                <a class="nav-item nav-link active" href="#">
                   Home <span class="sr-only">(current)</span>
-                </Link>
-
-                <Link class="nav-item nav-link active" to="/services">
-                  Services <span class="sr-only">(current)</span>
-                </Link>
-                <Link class="nav-item nav-link active" to="/projects">
-                  Projects <span class="sr-only">(current)</span>
-                </Link>
-                <Link class="nav-item nav-link active" to="/contact">
-                  Contact <span class="sr-only">(current)</span>
-                </Link>
+                </a>
+                <a class="nav-item nav-link active" href="#">
+                  Services
+                </a>
+                <a class="nav-item nav-link active" href="#">
+                  Projects
+                </a>
+                <a class="nav-item nav-link active" href="#">
+                  Contact
+                </a>
               </div>
             </div>
           </nav>
@@ -157,3 +153,4 @@ export default class App extends React.Component {
     );
   }
 }
+export default Home;
