@@ -1,0 +1,40 @@
+.project-flex {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 50%;
+  justify-content: center;
+}
+
+.project-flex.top {
+  margin-top: 50px;
+}
+
+.project-flex.bottom {
+  margin-bottom: 50px;
+}
+
+.project-image-main {
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+
+.project-image-main:hover {
+  transform: scale(1.05, 1.05);
+}
+
+@media only screen and (max-width: 550px) {
+  .project-image-main {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .project-image-main {
+    width: 280px;
+    height: 150px;
+  }
+}

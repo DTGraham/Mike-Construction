@@ -5,8 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h1>test</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-right">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-right">
           <a class="navbar-brand" href="#">
             Michael Earnest Rusk
           </a>
@@ -40,6 +39,7 @@ class Contact extends Component {
             </div>
           </div>
         </nav>
+        <h1>Contact</h1>
       </div>
     );
   }
