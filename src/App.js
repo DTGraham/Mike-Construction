@@ -71,41 +71,51 @@ export default class App extends React.Component {
         </div>
 
         <div class="about container">
-          <div class="about-row-flex">
+          <div class="about-row-flex top">
             <div class="about-column-flex">
-              <h1>About 1</h1>
+              <h1>About</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt i
+                Michael Earnest Rusk is homegrown local. His love and knowledge
+                of carpentry began 40 years ago. In his youth he would spend
+                hours on the weekends with his dad in his work shop. His dad
+                Clarence, taught him an appreciation for wood, structures,
+                design and quality of work. This involves seeing the form of a
+                piece and how it integrates with the environment, in a
+                functional and artful way. He also taught Mike the importance of
+                knowledge, drafting, and mathematics. He is a lifelong learner,
+                Mike is licensed to use a variety of heavy machinery and
+                continues to take courses that relate to projects he is working
+                on. Environmental awareness is key to his work as a carpenter.
+                Reclamation of job site materials and efficacy in waste
+                reduction are integral parts of the work he does.
               </p>
             </div>
             <div class="about-column-flex">
-              <img class="about-img" src="/About-1-photo.jpg" alt="not found" />
+              <img class="about-img" src="/about-photo.jpg" alt="not found" />
             </div>
           </div>
           <div class="about-row-flex">
             <div class="about-column-flex bottom">
               <img
                 class="about-img desktop"
-                src="/About-2-photo.jpg"
+                src="/About-1-photo.jpg"
                 alt="not found"
               />
             </div>
             <div class="about-column-flex bottom">
-              <h1>About 2</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt i
+                His approach to building is unique and unparalleled. His
+                attention to detail, depth of knowledge and technique allows him
+                to problem solve the most complex challenges, in a novel and
+                traditional way. Mike’s approach is holistic; from foundation to
+                finishing. He has built custom homes and completed custom
+                renovations, from jack to finish over the last 35 years both in
+                Southwestern Ontario and in high growth areas in British
+                Columbia. His inspiration to start his own company developed
+                from his experience working with a variety of local builders.
+                These experiences led to the realization that having a hands on,
+                ground level, on site approach is essential to a successful
+                project.
               </p>
             </div>
           </div>

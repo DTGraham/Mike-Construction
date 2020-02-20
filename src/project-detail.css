@@ -41,13 +41,13 @@
 }
 
 .project-gallery-image.type1 {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
 }
 
 .project-gallery-image.type2 {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
 }
 
 /* .project-gallery-image:hover {
@@ -63,4 +63,10 @@
 .project-gallery-image.visible {
   opacity: 1;
   transform: translate(0, 0);
+}
+
+@media only screen and (max-width: 650px) {
+  p {
+    font-size: 70%;
+  }
 }

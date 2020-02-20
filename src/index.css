@@ -76,8 +76,14 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 150px;
   width: 100%;
+
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.about-row-flex.top {
+  margin-top: 150px;
 }
 
 .about-column-flex {
@@ -86,6 +92,8 @@ code {
   width: 30%;
   margin-left: 3%;
   margin-right: 3%;
+
+  justify-content: flex-start;
 }
 
 .about-img {
