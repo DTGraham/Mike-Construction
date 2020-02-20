@@ -29,9 +29,6 @@ export default class ProjectFour extends Component {
                 Home <span class="sr-only">(current)</span>
               </Link>
 
-              <Link class="nav-item nav-link active" to="/services">
-                Services <span class="sr-only">(current)</span>
-              </Link>
               <Link class="nav-item nav-link active" to="/projects">
                 Projects <span class="sr-only">(current)</span>
               </Link>

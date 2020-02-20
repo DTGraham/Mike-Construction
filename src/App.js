@@ -38,9 +38,6 @@ export default class App extends React.Component {
                   Home <span class="sr-only">(current)</span>
                 </Link>
 
-                <Link class="nav-item nav-link active" to="/services">
-                  Services <span class="sr-only">(current)</span>
-                </Link>
                 <Link class="nav-item nav-link active" to="/projects">
                   Projects <span class="sr-only">(current)</span>
                 </Link>
@@ -61,11 +58,10 @@ export default class App extends React.Component {
           </div>
 
           <div class="d-flex heading-flex">
-            <button type="button" class="btn btn-warning">
-              {" "}
-              <a href="javascript: document.body.scrollIntoView(false);">
-                Request a Quote
-              </a>
+            <button type="button" class="btn btn-warning quote-button">
+              <Link to="/contact">
+                Request a Quote <span class="sr-only">(current)</span>
+              </Link>
             </button>
           </div>
         </div>
@@ -117,6 +113,28 @@ export default class App extends React.Component {
                 ground level, on site approach is essential to a successful
                 project.
               </p>
+            </div>
+          </div>
+
+          <div class="about-row-flex top">
+            <div class="about-column-flex">
+              <h1>Services</h1>
+              <p>
+                MER utilizes the most current technology in design to implement
+                square level and plumb building. This involves use of high-tech
+                layout and plumb bob levels. Communication is key, MER
+                connection to local trades ensures that your project is
+                completed according your timeline. MER’s staff is knowledgeable,
+                fully insured and have decades of knowledge. We can look after
+                you from start to finish. MER does decks to fences, foundation
+                to finishing. This includes landscape design. MER can connect
+                you with local designers, architects and engineers to manifest
+                the vision of your dream home. MER work speaks for itself; high
+                standard of detail from start to finish.
+              </p>
+            </div>
+            <div class="about-column-flex">
+              <img class="about-img" src="/about-photo.jpg" alt="not found" />
             </div>
           </div>
         </div>

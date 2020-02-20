@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import "./index.css";
 
 class Contact extends Component {
   render() {
@@ -27,9 +28,6 @@ class Contact extends Component {
                 Home <span class="sr-only">(current)</span>
               </Link>
 
-              <Link class="nav-item nav-link active" to="/services">
-                Services <span class="sr-only">(current)</span>
-              </Link>
               <Link class="nav-item nav-link active" to="/projects">
                 Projects <span class="sr-only">(current)</span>
               </Link>
@@ -39,7 +37,48 @@ class Contact extends Component {
             </div>
           </div>
         </nav>
-        <h1>Contact</h1>
+        <div class="about-contact container">
+          <h1>Request a Quote</h1>
+
+          <form class="" action="index.html" method="post">
+            <div class="about-contact-column-flex">
+              <div class="d-flex contact">
+                <label for="">Name</label>
+                <input type="text" name="" placeholder="Your Phone Name" />
+              </div>
+              <div class="d-flex contact">
+                <label for="">Email</label>
+                <input type="text" name="" placeholder="Your Email" />
+              </div>
+              <div class="d-flex contact">
+                <label for="">Phone</label>
+                <input type="text" name="" placeholder="Your Phone Number" />
+              </div>
+              <div class="d-flex contact">
+                <label for="">Project</label>
+                <input
+                  type="textarea"
+                  name=""
+                  placeholder="Your Project Description"
+                />
+              </div>
+              <div class="d-flex contact-submit">
+                <input
+                  class="btn btn-warning"
+                  type="submit"
+                  name=""
+                  value="Submit"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="d-flex bottom-nav navbar ">
+          <p>Michael Earnest Rusk</p>
+          <p>519-373-4402</p>
+          <p>RR # 4 Eugenia, ON</p>
+        </div>
       </div>
     );
   }

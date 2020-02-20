@@ -96,6 +96,10 @@ code {
   justify-content: flex-start;
 }
 
+.bottom-row {
+  width: 67%;
+}
+
 .about-img {
   width: 100%;
   height: 300px;
