@@ -142,25 +142,29 @@ export default class App extends React.Component {
         <div class="about-contact container">
           <h1>Request a Quote</h1>
 
-          <form class="" action="index.html" method="post">
+          <form class="" action="https://formspree.io/mjvrvyek" method="POST">
             <div class="about-contact-column-flex">
               <div class="d-flex contact">
                 <label for="">Name</label>
-                <input type="text" name="" placeholder="Your Phone Name" />
+                <input type="text" name="Name" placeholder="Your Phone Name" />
               </div>
               <div class="d-flex contact">
                 <label for="">Email</label>
-                <input type="text" name="" placeholder="Your Email" />
+                <input type="text" placeholder="Your Email" name="_replyto" />
               </div>
               <div class="d-flex contact">
                 <label for="">Phone</label>
-                <input type="text" name="" placeholder="Your Phone Number" />
+                <input
+                  type="text"
+                  name="Phone"
+                  placeholder="Your Phone Number"
+                />
               </div>
               <div class="d-flex contact">
                 <label for="">Project</label>
                 <input
                   type="textarea"
-                  name=""
+                  name="message"
                   placeholder="Your Project Description"
                 />
               </div>

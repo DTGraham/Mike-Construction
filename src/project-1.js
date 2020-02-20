@@ -7,6 +7,7 @@ export default class ProjectOne extends Component {
     return (
       <div>
         <script src="fade.js"></script>
+        <script src="modal.js"></script>
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-right">
           <Link class="navbar-brand" to="/">
             Michael Earnest Rusk<span class="sr-only">(current)</span>
@@ -72,6 +73,7 @@ export default class ProjectOne extends Component {
               src="project-1-p1.jpg"
               alt="not found"
             ></img>
+
             <img
               class="project-gallery-image type2"
               src="project-1-p2.jpg"
