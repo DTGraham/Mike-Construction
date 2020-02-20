@@ -9,7 +9,10 @@ class Projects extends Component {
       <div>
         <div class="container">
           <h1>test</h1>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-right">
+          <nav
+            id="projectimagemain"
+            class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-right"
+          >
             <Link class="navbar-brand" to="/">
               Michael Earnest Rusk<span class="sr-only">(current)</span>
             </Link>
@@ -42,41 +45,51 @@ class Projects extends Component {
           </nav>
 
           <div class="project-flex top">
-            <Link to="/project-one">
-              <img
-                class="project-image-main"
-                src="/project-1.jpg"
-                alt="not found"
-              ></img>
-              <span class="sr-only">(current)</span>
-            </Link>
+            <div class="project-image-main p1 project-image-flex">
+              <h1 class="project-image-contents-1">Project 1</h1>
+              <Link to="/project-one">
+                <input
+                  class="project-image-contents-1 btn btn-warning"
+                  type="submit"
+                  name=""
+                  value="Learn More"
+                />
+              </Link>
+            </div>
 
-            <Link to="/project-two">
-              <img
-                class="project-image-main"
-                src="/project-2.jpg"
-                alt="not found"
-              ></img>
-              <span class="sr-only">(current)</span>
-            </Link>
-          </div>
-          <div class="project-flex bottom">
-            <Link to="/project-three">
-              <img
-                class="project-image-main"
-                src="/project-3.jpg"
-                alt="not found"
-              ></img>
-              <span class="sr-only">(current)</span>
-            </Link>
-            <Link to="/project-four">
-              <img
-                class="project-image-main"
-                src="/project-4.jpg"
-                alt="not found"
-              ></img>
-              <span class="sr-only">(current)</span>
-            </Link>
+            <div class="project-image-main p2 project-image-flex">
+              <h1 class="project-image-contents-2">Project 2</h1>
+              <Link to="/project-two">
+                <input
+                  class="project-image-contents-2 btn btn-warning"
+                  type="submit"
+                  name=""
+                  value="Learn More"
+                />
+              </Link>
+            </div>
+            <div class="project-image-main p3 project-image-flex">
+              <h1 class="project-image-contents-3">Project 3</h1>
+              <Link to="/project-three">
+                <input
+                  class="project-image-contents-3 btn btn-warning"
+                  type="submit"
+                  name=""
+                  value="Learn More"
+                />
+              </Link>
+            </div>
+            <div class="project-image-main p4 project-image-flex bottom">
+              <h1 class="project-image-contents-4">Project 4</h1>
+              <Link to="/project-four">
+                <input
+                  class=" project-image-contents-4 btn btn-warning"
+                  type="submit"
+                  name=""
+                  value="Learn More"
+                />
+              </Link>
+            </div>
           </div>
         </div>
         <div class="d-flex bottom-nav navbar ">

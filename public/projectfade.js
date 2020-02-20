@@ -2,7 +2,6 @@ $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
   var pageBottom = pageTop + $(window).height();
   var tags = $(".project-gallery-image");
-  console.log(pageBottom);
 
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
