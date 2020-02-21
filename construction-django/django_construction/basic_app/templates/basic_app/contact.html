@@ -1,5 +1,46 @@
 {% extends "basic_app/base.html" %} {% block body_block%} {% load static %}
 
-<h1>test</h1>
+<style>
+  .contact-banner {
+    background-image: url("{% static 'basic_app/images/projects/Project-1.jpg' %}");
+    margin-top: 50px;
+  }
+</style>
+
+<div class="contact-banner">
+  <h1 class="contact-title">Contact</h1>
+</div>
+
+<div class="about-contact container">
+  <h1>Request a Quote</h1>
+
+  <form class="" action="https://formspree.io/mjvrvyek" method="POST">
+    <div class="about-contact-column-flex">
+      <div class="d-flex contact">
+        <label for="">Name</label>
+        <input type="text" name="Name" placeholder="Your Phone Name" />
+      </div>
+      <div class="d-flex contact">
+        <label for="">Email</label>
+        <input type="text" placeholder="Your Email" name="_replyto" />
+      </div>
+      <div class="d-flex contact">
+        <label for="">Phone</label>
+        <input type="text" name="Phone" placeholder="Your Phone Number" />
+      </div>
+      <div class="d-flex contact">
+        <label for="">Project</label>
+        <input
+          type="textarea"
+          name="message"
+          placeholder="Your Project Description"
+        />
+      </div>
+      <div class="d-flex contact-submit">
+        <input class="btn btn-warning" type="submit" name="" value="Submit" />
+      </div>
+    </div>
+  </form>
+</div>
 
 {% endblock %}

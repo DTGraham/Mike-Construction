@@ -1,0 +1,23 @@
+.contact-banner {
+  background-image: url("/contact-back.png");
+  background-size: 100%;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-title {
+  color: white;
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-banner {
+    background-size: 100%;
+    height: 100px;
+  }
+
+  .contact-title {
+    font-size: 170%;
+  }
+}
