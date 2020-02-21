@@ -1,0 +1,144 @@
+{% extends "basic_app/base.html" %} {% block body_block%} {% load static %}
+
+<script src="{% static 'basic_app/js/project-highlight.js' %}"></script>
+
+<style>
+  .project-image-main.p1 {
+    background-image: url("{% static 'basic_app/images/projects/Project-1.jpg' %}");
+  }
+
+  .project-image-main.p2 {
+    background-image: url("{% static 'basic_app/images/projects/Project-2.jpg' %}");
+  }
+
+  .project-image-main.p3 {
+    background-image: url("{% static 'basic_app/images/projects/Project-3.jpg' %}");
+  }
+
+  .project-image-main.p4 {
+    background-image: url("{% static 'basic_app/images/projects/Project-4.jpg' %}");
+  }
+</style>
+
+<div class="project-flex top">
+  <div class="project-image-main p1 project-image-flex">
+    <h1 class="project-image-contents-1">Project 1</h1>
+    <a href="{% url 'project1' %}">
+      <input
+        class="project-image-contents-1 btn btn-warning"
+        type="submit"
+        name=""
+        value="Learn More"
+      />
+    </a>
+  </div>
+
+  <div class="project-image-main p2 project-image-flex">
+    <h1 class="project-image-contents-2">Project 2</h1>
+    <a href="{% url 'project2' %}">
+      <input
+        class="project-image-contents-2 btn btn-warning"
+        type="submit"
+        name=""
+        value="Learn More"
+      />
+    </a>
+  </div>
+  <div class="project-image-main p3 project-image-flex">
+    <h1 class="project-image-contents-3">Project 3</h1>
+    <a href="{% url 'project3' %}">
+      <input
+        class="project-image-contents-3 btn btn-warning"
+        type="submit"
+        name=""
+        value="Learn More"
+      />
+    </a>
+  </div>
+  <div class="project-image-main p4 project-image-flex bottom">
+    <h1 class="project-image-contents-4">Project 4</h1>
+    <a href="{% url 'project4' %}">
+      <input
+        class=" project-image-contents-4 btn btn-warning"
+        type="submit"
+        name=""
+        value="Learn More"
+      />
+    </a>
+  </div>
+</div>
+
+<!-- This script displays a opaque black filter over project image and displays project title on mouse over  -->
+
+<script type="text/javascript">
+  window.$(document).ready(function() {
+    window.$("div.p1").on("mouseover", function() {
+      window
+        .$("div.p1")
+        .attr(
+          "style",
+          "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+        );
+      window.$("h1.project-image-contents-1").css("opacity", "1");
+      window.$("input.project-image-contents-1").css("opacity", "1");
+    });
+    $("div.p1").on("mouseout", function() {
+      $("div.p1").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1.jpg' %}"
+      );
+      $("h1.project-image-contents-1").css("opacity", "0");
+      $("input.project-image-contents-1").css("opacity", "0");
+    });
+    $("div.p2").on("mouseover", function() {
+      $("div.p2").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+      );
+      $("h1.project-image-contents-2").css("opacity", "1");
+      $("input.project-image-contents-2").css("opacity", "1");
+    });
+    $("div.p2").on("mouseout", function() {
+      $("div.p2").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+      );
+      $("h1.project-image-contents-2").css("opacity", "0");
+      $("input.project-image-contents-2").css("opacity", "0");
+    });
+    $("div.p3").on("mouseover", function() {
+      $("div.p3").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+      );
+      $("h1.project-image-contents-3").css("opacity", "1");
+      $("input.project-image-contents-3").css("opacity", "1");
+    });
+    $("div.p3").on("mouseout", function() {
+      $("div.p3").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+      );
+      $("h1.project-image-contents-3").css("opacity", "0");
+      $("input.project-image-contents-3").css("opacity", "0");
+    });
+    $("div.p4").on("mouseover", function() {
+      $("div.p4").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+      );
+      $("h1.project-image-contents-4").css("opacity", "1");
+      $("input.project-image-contents-4").css("opacity", "1");
+    });
+    $("div.p4").on("mouseout", function() {
+      $("div.p4").attr(
+        "style",
+        "background-image: {% static 'basic_app/images/projects/Project-1-Dark.png' %}"
+      );
+      $("h1.project-image-contents-4").css("opacity", "0");
+      $("input.project-image-contents-4").css("opacity", "0");
+    });
+  });
+</script>
+
+{% endblock %}
