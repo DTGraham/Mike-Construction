@@ -1,44 +1,97 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./project-detail.css";
+import $ from "jquery";
 
 export default class ProjectThree extends Component {
+  componentDidMount() {
+    $(document).on("scroll", function() {
+      var pageTop = $(document).scrollTop();
+      var pageBottom = pageTop + $(window).height();
+      var tags = $(".about-img");
+      var tags2 = $(".project-gallery-image");
+
+      for (var i = 0; i < tags.length; i++) {
+        var tag = tags[i];
+
+        if ($(tag).position().top < pageBottom) {
+          $(tag).addClass("visible");
+        } else {
+          $(tag).removeClass("visible");
+        }
+      }
+
+      for (var t = 0; t < tags2.length; t++) {
+        var tag2 = tags2[i];
+
+        if ($(tag2).position().top < pageBottom) {
+          $(tag2).addClass("visible");
+        } else {
+          $(tag2).removeClass("visible");
+        }
+      }
+    });
+
+    $(document).on("scroll", function() {
+      var pageTop = $(document).scrollTop();
+      var pageBottom = pageTop + $(window).height();
+      var tags = $(".project-gallery-image");
+
+      for (var i = 0; i < tags.length; i++) {
+        var tag = tags[i];
+
+        if ($(tag).position().top < pageBottom) {
+          $(tag).addClass("visible");
+        } else {
+          $(tag).removeClass("visible");
+        }
+      }
+    });
+  }
+
   render() {
     return (
       <div>
         <script src="fade.js"></script>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-right">
-          <Link class="navbar-brand" to="/">
-            Michael Earnest Rusk<span class="sr-only">(current)</span>
-          </Link>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+          <a class="navbar-brand" href="#">
+            Michael Earnest Rusk
+          </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <Link class="nav-item nav-link active" to="/">
-                Home <span class="sr-only">(current)</span>
-              </Link>
-
-              <Link class="nav-item nav-link active" to="/projects">
-                Projects <span class="sr-only">(current)</span>
-              </Link>
-              <Link class="nav-item nav-link active" to="/contact">
-                Contact <span class="sr-only">(current)</span>
-              </Link>
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="navbar-nav ml-auto">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <li class="nav-item active">
+                  <Link class="nav-link" to="/">
+                    Home<span class="sr-only">(current)</span>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link class="nav-link" to="/projects">
+                    Projects <span class="sr-only">(current)</span>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link class="nav-link" to="/contact">
+                    Contact <span class="sr-only">(current)</span>
+                  </Link>
+                </li>
+              </div>
             </div>
-          </div>
+          </ul>
         </nav>
-
         <div class="project-banner">
           <h1 class="banner-title"> Project 3 </h1>
         </div>

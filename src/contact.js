@@ -7,36 +7,44 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-right">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
           <a class="navbar-brand" href="#">
             Michael Earnest Rusk
           </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <Link class="nav-item nav-link active" to="/">
-                Home <span class="sr-only">(current)</span>
-              </Link>
-
-              <Link class="nav-item nav-link active" to="/projects">
-                Projects <span class="sr-only">(current)</span>
-              </Link>
-              <Link class="nav-item nav-link active" to="/contact">
-                Contact <span class="sr-only">(current)</span>
-              </Link>
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="navbar-nav ml-auto">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <li class="nav-item active">
+                  <Link class="nav-link" to="/">
+                    Home<span class="sr-only">(current)</span>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link class="nav-link" to="/projects">
+                    Projects <span class="sr-only">(current)</span>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link class="nav-link" to="/contact">
+                    Contact <span class="sr-only">(current)</span>
+                  </Link>
+                </li>
+              </div>
             </div>
-          </div>
+          </ul>
         </nav>
 
         <div class="contact-banner">

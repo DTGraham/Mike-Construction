@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import Nav from "./nav";
 import Services from "./services";
 import Projects from "./projects";
 import Contact from "./contact";

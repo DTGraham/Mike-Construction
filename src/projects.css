@@ -5,6 +5,11 @@
   justify-content: center;
 }
 
+.projects-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .project-flex.top {
   margin-top: 50px;
 }

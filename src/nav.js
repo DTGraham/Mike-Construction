@@ -7,39 +7,28 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-right">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning rounded">
           <a class="navbar-brand" href="#">
             Michael Earnest Rusk
           </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <Link class="nav-item nav-link active" to="/">
-                Home <span class="sr-only">(current)</span>
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <Link to="/home">
+                Home<span class="sr-only">(current)</span>
               </Link>
-
-              <Link class="nav-item nav-link active" to="/services">
-                Services <span class="sr-only">(current)</span>
-              </Link>
-              <Link class="nav-item nav-link active" to="/projects">
+            </li>
+            <li class="nav-item active">
+              <Link to="/projects">
                 Projects <span class="sr-only">(current)</span>
               </Link>
-              <Link class="nav-item nav-link active" to="/contact">
+            </li>
+            <li class="nav-item active">
+              <Link to="/contact">
                 Contact <span class="sr-only">(current)</span>
               </Link>
-            </div>
-          </div>
+            </li>
+          </ul>
         </nav>
       </div>
     );
