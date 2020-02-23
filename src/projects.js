@@ -6,6 +6,7 @@ import $ from "jquery";
 
 class Projects extends Component {
   componentDidMount() {
+    window.scrollTo(0, 0);
     $(document).ready(function() {
       $("div.p1").on("mouseover", function() {
         $("div.p1").css(

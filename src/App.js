@@ -6,6 +6,7 @@ import $ from "jquery";
 
 export default class App extends React.Component {
   componentDidMount() {
+    window.scrollTo(0, 0);
     $(document).on("scroll", function() {
       var pageTop = $(document).scrollTop();
       var pageBottom = pageTop + $(window).height();
