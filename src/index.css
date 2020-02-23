@@ -81,7 +81,7 @@ code {
 }
 
 .about-row-flex.top {
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .about-column-flex {
@@ -113,12 +113,12 @@ code {
 }
 
 .about-contact > h1 {
-  margin-top: 150px;
+  margin-top: 80px;
   text-align: center;
 }
 
 .about-contact-column-flex {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -233,7 +233,7 @@ code {
 
   .about-contact-column-flex {
     font-size: 70%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -328,7 +328,7 @@ code {
 
   .about-contact-column-flex {
     font-size: 70%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -343,9 +343,8 @@ code {
     font-size: 170%;
   }
 
-  .about-contact > h1 {
-    margin-top: 50px;
-    font-size: 119%;
+  .about-contact > h4 {
+    font-size: 100%;
     text-align: center;
   }
 }

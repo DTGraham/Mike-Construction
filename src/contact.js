@@ -49,56 +49,70 @@ class Contact extends Component {
             </div>
           </ul>
         </nav>
+        <div class="contact-page">
+          <div class="contact-banner">
+            <h1 class="contact-title"> Contact</h1>
+          </div>
 
-        <div class="contact-banner">
-          <h1 class="contact-title"> Contact</h1>
-        </div>
+          <div class="about-contact container">
+            <h1>
+              Contact us today to schedule an apointment or receive a quote for
+              your construction project
+            </h1>
+            <h4 class="top">519-373-4402</h4>
+            <h4>mkrusk11@gmail.com</h4>
+          </div>
 
-        <div class="about-contact container">
-          <h1>Request a Quote</h1>
+          <div class="about-contact container">
+            <h1>Request a Quote</h1>
 
-          <form class="" action="https://formspree.io/mjvrvyek" method="POST">
-            <div class="about-contact-column-flex">
-              <div class="d-flex contact">
-                <label for="">Name</label>
-                <input type="text" name="Name" placeholder="Your Phone Name" />
+            <form class="" action="https://formspree.io/mjvrvyek" method="POST">
+              <div class="about-contact-column-flex">
+                <div class="d-flex contact">
+                  <label for="">Name</label>
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your Phone Name"
+                  />
+                </div>
+                <div class="d-flex contact">
+                  <label for="">Email</label>
+                  <input type="text" placeholder="Your Email" name="_replyto" />
+                </div>
+                <div class="d-flex contact">
+                  <label for="">Phone</label>
+                  <input
+                    type="text"
+                    name="Phone"
+                    placeholder="Your Phone Number"
+                  />
+                </div>
+                <div class="d-flex contact">
+                  <label for="">Project</label>
+                  <input
+                    type="textarea"
+                    name="message"
+                    placeholder="Your Project Description"
+                  />
+                </div>
+                <div class="d-flex contact-submit">
+                  <input
+                    class="btn btn-warning"
+                    type="submit"
+                    name=""
+                    value="Submit"
+                  />
+                </div>
               </div>
-              <div class="d-flex contact">
-                <label for="">Email</label>
-                <input type="text" placeholder="Your Email" name="_replyto" />
-              </div>
-              <div class="d-flex contact">
-                <label for="">Phone</label>
-                <input
-                  type="text"
-                  name="Phone"
-                  placeholder="Your Phone Number"
-                />
-              </div>
-              <div class="d-flex contact">
-                <label for="">Project</label>
-                <input
-                  type="textarea"
-                  name="message"
-                  placeholder="Your Project Description"
-                />
-              </div>
-              <div class="d-flex contact-submit">
-                <input
-                  class="btn btn-warning"
-                  type="submit"
-                  name=""
-                  value="Submit"
-                />
-              </div>
-            </div>
-          </form>
-        </div>
+            </form>
+          </div>
 
-        <div class="d-flex bottom-nav navbar ">
-          <p>Michael Earnest Rusk</p>
-          <p>519-373-4402</p>
-          <p>RR # 4 Eugenia, ON</p>
+          <div class="d-flex bottom-nav navbar ">
+            <p>Michael Earnest Rusk</p>
+            <p>519-373-4402</p>
+            <p>RR # 4 Eugenia, ON</p>
+          </div>
         </div>
       </div>
     );
