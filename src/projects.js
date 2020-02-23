@@ -7,6 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
+        <script src="scripts/project-highlight.js"></script>
         <div class="container">
           <h1>test</h1>
           <nav

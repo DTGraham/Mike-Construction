@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import Projects from "./projects";
 import smoothscroll from "smoothscroll-polyfill";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 
@@ -87,14 +86,18 @@ export default class App extends React.Component {
               </p>
             </div>
             <div class="about-column-flex">
-              <img class="about-img" src="/about-photo.jpg" alt="not found" />
+              <img
+                class="about-img"
+                src="/home/about-photo.jpg"
+                alt="not found"
+              />
             </div>
           </div>
           <div class="about-row-flex">
             <div class="about-column-flex bottom">
               <img
                 class="about-img desktop"
-                src="/About-1-photo.jpg"
+                src="/home/About-1-photo.jpg"
                 alt="not found"
               />
             </div>
@@ -134,7 +137,11 @@ export default class App extends React.Component {
               </p>
             </div>
             <div class="about-column-flex">
-              <img class="about-img" src="/about-photo.jpg" alt="not found" />
+              <img
+                class="about-img"
+                src="/home/about-photo.jpg"
+                alt="not found"
+              />
             </div>
           </div>
         </div>
