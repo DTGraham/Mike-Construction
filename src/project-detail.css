@@ -4,12 +4,21 @@
 }
 
 .project-banner {
-  background-image: url("/project-1-dark.png");
-  background-size: cover;
-  height: 300px;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.project-banner.project-1 {
+  background-image: url("/projects/Project-1/Project-1-Dark.png");
+  background-size: cover;
+  height: 300px;
+}
+
+.project-banner.project-2 {
+  background-image: url("/projects/Project-2/Project-2-Dark.png");
+  background-size: cover;
+  height: 300px;
 }
 
 .banner-title {
@@ -31,6 +40,7 @@
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 100px;
+  image-orientation: flip;
 }
 
 .project-gallery-image {

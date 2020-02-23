@@ -40,11 +40,11 @@ export default class ProjectOne extends Component {
           </div>
         </nav>
 
-        <div class="project-banner">
-          <h1 class="banner-title"> Project 1 </h1>
+        <div class="project-banner project-1">
+          <h1 class="banner-title"> Custom Renovations</h1>
         </div>
         <div class="container project-content">
-          <h1 class="project-title">Project 1</h1>
+          <h1 class="project-title">Custom Renovations</h1>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -70,53 +70,68 @@ export default class ProjectOne extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-1/IMG-0356.jpg"
               alt="not found"
             ></img>
 
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-1/IMG-0357.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-1/IMG-0358.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-1/IMG-0359.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-1/IMG-0360.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-1/IMG-0361.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-1/IMG-0362.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-1/IMG-0363.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-1/IMG-0364.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-1/IMG-0365.jpg"
+              alt="not found"
+            ></img>
+            <img
+              class="project-gallery-image type2"
+              src="/projects/Project-1/IMG-0366.jpg"
+              alt="not found"
+            ></img>
+            <img
+              class="project-gallery-image type2"
+              src="/projects/Project-1/IMG-0367.jpg"
+              alt="not found"
+            ></img>
+            <img
+              class="project-gallery-image type2"
+              src="/projects/Project-1/IMG-0368.jpg"
               alt="not found"
             ></img>
           </div>

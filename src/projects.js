@@ -47,7 +47,7 @@ class Projects extends Component {
 
           <div class="project-flex top">
             <div class="project-image-main p1 project-image-flex">
-              <h1 class="project-image-contents-1">Project 1</h1>
+              <h1 class="project-image-contents-1">Custom Renovations</h1>
               <Link to="/project-one">
                 <input
                   class="project-image-contents-1 btn btn-warning"
@@ -59,7 +59,7 @@ class Projects extends Component {
             </div>
 
             <div class="project-image-main p2 project-image-flex">
-              <h1 class="project-image-contents-2">Project 2</h1>
+              <h1 class="project-image-contents-2">Timber Home</h1>
               <Link to="/project-two">
                 <input
                   class="project-image-contents-2 btn btn-warning"

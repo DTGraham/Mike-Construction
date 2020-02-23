@@ -39,11 +39,11 @@ export default class ProjectTwo extends Component {
           </div>
         </nav>
 
-        <div class="project-banner">
-          <h1 class="banner-title"> Project 2 </h1>
+        <div class="project-banner project-2">
+          <h1 class="banner-title"> Timber Home </h1>
         </div>
         <div class="container project-content">
-          <h1 class="project-title">Project 2</h1>
+          <h1 class="project-title">Timber Home</h1>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -69,52 +69,37 @@ export default class ProjectTwo extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-2/IMG-0126.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-2/IMG-0233.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-2/IMG-0239.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-2/IMG-0244.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-2/IMG-0247.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-2/IMG-0254.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="project-1-p2.jpg"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="project-1-p1.jpg"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-2/IMG-0257.jpg"
               alt="not found"
             ></img>
           </div>

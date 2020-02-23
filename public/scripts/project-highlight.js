@@ -1,21 +1,32 @@
 window.$(document).ready(function() {
   window.$("div.p1").on("mouseover", function() {
-    window.$("div.p1").css("background-image", "url(/project-1-dark.png)");
+    window
+      .$("div.p1")
+      .css("background-image", "url(/projects/Project-1/Project-1-Dark.png)");
     window.$("h1.project-image-contents-1").css("opacity", "1");
     window.$("input.project-image-contents-1").css("opacity", "1");
   });
   $("div.p1").on("mouseout", function() {
-    $("div.p1").css("background-image", "url(/project-1.jpg)");
+    $("div.p1").css(
+      "background-image",
+      "url(/projects/Project-1/IMG-0361.jpg)"
+    );
     $("h1.project-image-contents-1").css("opacity", "0");
     $("input.project-image-contents-1").css("opacity", "0");
   });
   $("div.p2").on("mouseover", function() {
-    $("div.p2").css("background-image", "url(/project-2-dark.png)");
+    $("div.p2").css(
+      "background-image",
+      "url(/projects/Project-2/Project-2-Dark.png)"
+    );
     $("h1.project-image-contents-2").css("opacity", "1");
     $("input.project-image-contents-2").css("opacity", "1");
   });
   $("div.p2").on("mouseout", function() {
-    $("div.p2").css("background-image", "url(/project-2.jpg)");
+    $("div.p2").css(
+      "background-image",
+      "url(/projects/Project-2/IMG-0257.jpg)"
+    );
     $("h1.project-image-contents-2").css("opacity", "0");
     $("input.project-image-contents-2").css("opacity", "0");
   });
