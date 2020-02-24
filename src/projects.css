@@ -67,7 +67,7 @@
   transition-duration: 300ms;
 }
 .project-image-main.p3 {
-  background-image: url("/projects/Project-3/IMG-0464.jpg");
+  background-image: url("/public/projects/Project-3/IMG-0464.jpg");
   background-size: cover;
   width: 500px;
   height: 300px;
