@@ -21,6 +21,12 @@
   height: 300px;
 }
 
+.project-banner.project-3 {
+  background-image: url("/projects/Project-2/Project-2-Dark.png");
+  background-size: cover;
+  height: 300px;
+}
+
 .banner-title {
   color: white;
 }

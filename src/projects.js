@@ -41,12 +41,18 @@ class Projects extends Component {
         $("input.project-image-contents-2").css("opacity", "0");
       });
       $("div.p3").on("mouseover", function() {
-        $("div.p3").css("background-image", "url(/project-3-dark.png)");
+        $("div.p3").css(
+          "background-image",
+          "url(/projects/Project-3/Project-3-Dark.png)"
+        );
         $("h1.project-image-contents-3").css("opacity", "1");
         $("input.project-image-contents-3").css("opacity", "1");
       });
       $("div.p3").on("mouseout", function() {
-        $("div.p3").css("background-image", "url(/project-3.jpg)");
+        $("div.p3").css(
+          "background-image",
+          "url(/projects/Project-3/IMG-0464.jpg"
+        );
         $("h1.project-image-contents-3").css("opacity", "0");
         $("input.project-image-contents-3").css("opacity", "0");
       });
@@ -133,7 +139,7 @@ class Projects extends Component {
                 </Link>
               </div>
               <div class="project-image-main p3 project-image-flex">
-                <h1 class="project-image-contents-3">Project 3</h1>
+                <h1 class="project-image-contents-3">Country Renovations</h1>
                 <Link to="/project-three">
                   <input
                     class="project-image-contents-3 btn btn-warning"

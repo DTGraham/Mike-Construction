@@ -93,11 +93,11 @@ export default class ProjectThree extends Component {
             </div>
           </ul>
         </nav>
-        <div class="project-banner">
-          <h1 class="banner-title"> Project 3 </h1>
+        <div class="project-banner project-3">
+          <h1 class="banner-title"> Country Renovations </h1>
         </div>
         <div class="container project-content">
-          <h1 class="project-title">Project 3</h1>
+          <h1 class="project-title">Country Renovations</h1>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -123,52 +123,37 @@ export default class ProjectThree extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-3/IMG-0460.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-3/IMG-0462.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-3/IMG-0464.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-3/IMG-0465.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
+              src="/projects/Project-3/IMG-0467.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-3/IMG-0469.jpg"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="project-1-p1.jpg"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="project-1-p2.jpg"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="project-1-p1.jpg"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="project-1-p2.jpg"
+              src="/projects/Project-3/IMG-0471.jpg"
               alt="not found"
             ></img>
           </div>
