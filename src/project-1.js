@@ -53,8 +53,6 @@ export default class ProjectOne extends Component {
   render() {
     return (
       <div>
-        <script src="fade.js"></script>
-        <script src="modal.js"></script>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
           <a class="navbar-brand" href="#">
             Michael Earnest Rusk
@@ -190,6 +188,13 @@ export default class ProjectOne extends Component {
               alt="not found"
             ></img>
           </div>
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+
+          <img class="modal-content" id="img01"></img>
+
+          <div id="caption"></div>
         </div>
         <div class="d-flex bottom-nav navbar ">
           <p>Michael Earnest Rusk</p>

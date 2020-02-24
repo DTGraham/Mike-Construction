@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./projects.css";
 import "./index.css";
+import "./projects.css";
 import $ from "jquery";
 
 class Projects extends Component {
