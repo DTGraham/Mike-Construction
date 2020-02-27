@@ -93,6 +93,18 @@
     width: 300px;
     height: 300px;
   }
+  .project-image-contents-1 {
+    opacity: 1;
+  }
+  .project-image-contents-2 {
+    opacity: 1;
+  }
+  .project-image-contents-3 {
+    opacity: 1;
+  }
+  .project-image-contents-4 {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -107,5 +119,18 @@
 
   .project-flex > div > link > input {
     font-size: 150%;
+  }
+
+  .project-image-contents-1 {
+    opacity: 1;
+  }
+  .project-image-contents-2 {
+    opacity: 1;
+  }
+  .project-image-contents-3 {
+    opacity: 1;
+  }
+  .project-image-contents-4 {
+    opacity: 1;
   }
 }
