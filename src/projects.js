@@ -41,7 +41,10 @@ class Projects extends Component {
         $("input.project-image-contents-2").css("opacity", "0");
       });
       $("div.p3").on("mouseover", function() {
-        $("div.p3").css("background-image", "url(/Project-3-Dark.png)");
+        $("div.p3").css(
+          "background-image",
+          "url(/projects/Project-2/Project-2-Dark.png)"
+        );
         $("h1.project-image-contents-3").css("opacity", "1");
         $("input.project-image-contents-3").css("opacity", "1");
       });
