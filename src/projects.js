@@ -149,7 +149,7 @@ class Projects extends Component {
                   />
                 </Link>
               </div>
-              <div class="project-image-main p4 project-image-flex bottom">
+              {/* <div class="project-image-main p4 project-image-flex bottom">
                 <h1 class="project-image-contents-4">Project 4</h1>
                 <Link to="/project-four">
                   <input
@@ -159,14 +159,14 @@ class Projects extends Component {
                     value="Learn More"
                   />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-        <div class="d-flex bottom-nav navbar ">
+        <div class="navbar navbar-expand-sm navbar-light bg-warning sticky-bottom bottom-navbar">
           <p>Michael Earnest Rusk</p>
           <p>519-373-4402</p>
-          <p>RR # 4 Eugenia, ON</p>
+          <p>RR #4 Eugenia, ON</p>
         </div>
       </div>
     );

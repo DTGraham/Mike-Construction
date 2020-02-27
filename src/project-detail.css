@@ -4,25 +4,26 @@
 }
 
 .project-banner {
+  margin-top: 55px;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 .project-banner.project-1 {
-  background-image: url("/projects/Project-1/Project-1-Dark.png");
+  background-image: url("/projects/Project-1/project1banner.png");
   background-size: cover;
   height: 300px;
 }
 
 .project-banner.project-2 {
-  background-image: url("/projects/Project-2/Project-2-Dark.png");
+  background-image: url("/projects/Project-2/project2banner.png");
   background-size: cover;
   height: 300px;
 }
 
 .project-banner.project-3 {
-  background-image: url("/projects/Project-2/Project-2-Dark.png");
+  background-image: url("/projects/Project-1/project1banner.png");
   background-size: cover;
   height: 300px;
 }
@@ -85,9 +86,47 @@
   width: 400px;
   height: 264px;
 }
+.bottom-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-navbar > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 @media only screen and (max-width: 650px) {
   p {
     font-size: 70%;
+  }
+
+  .banner-title,
+  .project-title,
+  p {
+    text-align: center;
+  }
+
+  .project-banner {
+    margin-top: 50px;
+  }
+  .project-banner.project-1 {
+    background-image: url("/projects/Project-1/Project-1-Dark.png");
+    background-size: cover;
+    height: 300px;
+  }
+
+  .project-banner.project-2 {
+    background-image: url("/projects/Project-2/Project-2-Dark.png");
+    background-size: cover;
+    height: 300px;
+  }
+
+  .project-banner.project-3 {
+    background-image: url("/projects/Project-2/Project-2-Dark.png");
+    background-size: cover;
+    height: 300px;
   }
 }

@@ -144,7 +144,7 @@ class Home extends React.Component {
           </form>
         </div>
 
-        <div class="d-flex bottom-nav navbar ">
+        <div class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom ">
           <p>Michael Earnest Rusk</p>
           <p>519-373-4402</p>
           <p>RR # 4 Eugenia, ON</p>

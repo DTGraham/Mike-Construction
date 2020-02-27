@@ -159,10 +159,10 @@ export default class ProjectTwo extends Component {
             ></img>
           </div>
         </div>
-        <div class="d-flex bottom-nav navbar ">
+        <div class="navbar navbar-expand-sm navbar-light bg-warning sticky-bottom bottom-navbar">
           <p>Michael Earnest Rusk</p>
           <p>519-373-4402</p>
-          <p>RR # 4 Eugenia, ON</p>
+          <p>RR #4 Eugenia, ON</p>
         </div>
       </div>
     );
