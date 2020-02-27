@@ -11,7 +11,7 @@ class Projects extends Component {
       $("div.p1").on("mouseover", function() {
         $("div.p1").css(
           "background-image",
-          "url(/projects/Project-1/Project-1-Dark.png)"
+          "url(/projects/Project-1/Project-1-Dark-LG.png)"
         );
         window.$("h1.project-image-contents-1").css("opacity", "1");
         window.$("input.project-image-contents-1").css("opacity", "1");
@@ -19,7 +19,7 @@ class Projects extends Component {
       $("div.p1").on("mouseout", function() {
         $("div.p1").css(
           "background-image",
-          "url(/projects/Project-1/IMG-0361.jpg)"
+          "url(/projects/Project-1/Project-1-1-LG.png)"
         );
         $("h1.project-image-contents-1").css("opacity", "0");
         $("input.project-image-contents-1").css("opacity", "0");
@@ -27,7 +27,7 @@ class Projects extends Component {
       $("div.p2").on("mouseover", function() {
         $("div.p2").css(
           "background-image",
-          "url(/projects/Project-2/Project-2-Dark.png)"
+          "url(/projects/Project-2/Project-2-Dark-LG.png)"
         );
         $("h1.project-image-contents-2").css("opacity", "1");
         $("input.project-image-contents-2").css("opacity", "1");
@@ -35,7 +35,7 @@ class Projects extends Component {
       $("div.p2").on("mouseout", function() {
         $("div.p2").css(
           "background-image",
-          "url(/projects/Project-2/IMG-0257.jpg)"
+          "url(/projects/Project-2/Project-2-1-LG.png)"
         );
         $("h1.project-image-contents-2").css("opacity", "0");
         $("input.project-image-contents-2").css("opacity", "0");
@@ -43,7 +43,7 @@ class Projects extends Component {
       $("div.p3").on("mouseover", function() {
         $("div.p3").css(
           "background-image",
-          "url(/projects/Project-3-Dark.png)"
+          "url(/projects/Project-2/Project-3-Dark-LG.png)"
         );
         $("h1.project-image-contents-3").css("opacity", "1");
         $("input.project-image-contents-3").css("opacity", "1");
@@ -51,7 +51,7 @@ class Projects extends Component {
       $("div.p3").on("mouseout", function() {
         $("div.p3").css(
           "background-image",
-          "url(/projects/Project-2/Project-3-1.JPG)"
+          "url(/projects/Project-2/Project-3-1-LG.png)"
         );
         $("h1.project-image-contents-3").css("opacity", "0");
         $("input.project-image-contents-3").css("opacity", "0");

@@ -48,42 +48,42 @@
 }
 
 .project-image-main.p1 {
-  background-image: url("/projects/Project-1/IMG-0361.jpg");
+  background-image: url("/projects/Project-1/Project-1-1-LG.png");
   background-size: cover;
   width: 500px;
-  height: 300px;
+  height: 375px;
   margin: 10px;
   transition-property: all;
   transition-duration: 300ms;
 }
 
 .project-image-main.p2 {
-  background-image: url("/projects/Project-2-1.jpg");
+  background-image: url("/projects/Project-2/Project-2-1-LG.png");
   background-size: cover;
   width: 500px;
-  height: 300px;
+  height: 375px;
   margin: 10px;
   transition-property: all;
   transition-duration: 300ms;
 }
 .project-image-main.p3 {
-  background-image: url("/projects/Project-2/Project-3-1.JPG");
+  background-image: url("/projects/Project-2/Project-3-1-LG.png");
   background-size: cover;
   width: 500px;
-  height: 300px;
+  height: 375px;
   margin: 10px;
   transition-property: all;
   transition-duration: 300ms;
 }
-.project-image-main.p4 {
+/* .project-image-main.p4 {
   background-image: url("/project-4.jpg");
   background-size: cover;
   width: 500px;
-  height: 300px;
+  height: 375px;
   margin: 10px;
   transition-property: all;
   transition-duration: 300ms;
-}
+} */
 .project-image-main:hover {
   transform: scale(1.05, 1.05);
 }
@@ -130,6 +130,35 @@
 
   .project-flex > div > link > input {
     font-size: 150%;
+  }
+
+  .project-image-main.p1 {
+    background-image: url("/projects/Project-1/Project-1-1-LG.png");
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 300ms;
+  }
+
+  .project-image-main.p2 {
+    background-image: url("/projects/Project-2/Project-2-1-LG.png");
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 300ms;
+  }
+  .project-image-main.p3 {
+    background-image: url("/projects/Project-2/Project-3-1-LG.png");
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 300ms;
   }
 
   .project-image-contents-1 {

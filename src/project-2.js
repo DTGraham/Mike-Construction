@@ -124,37 +124,37 @@ export default class ProjectTwo extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/IMG-0126.jpg"
+              src="/projects/Project-2/Project-2-1-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/IMG-0233.jpg"
+              src="/projects/Project-2/Project-2-2-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/IMG-0239.jpg"
+              src="/projects/Project-2/Project-2-3-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/IMG-0244.jpg"
+              src="/projects/Project-2/Project-2-4-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/IMG-0247.jpg"
+              src="/projects/Project-2/Project-2-5-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/IMG-0254.jpg"
+              src="/projects/Project-2/Project-2-6-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/IMG-0257.jpg"
+              src="/projects/Project-2/Project-2-7-MD.png"
               alt="not found"
             ></img>
           </div>

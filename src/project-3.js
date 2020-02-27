@@ -123,37 +123,37 @@ export default class ProjectThree extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-1.JPG"
+              src="/projects/Project-2/Project-3-1-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-2.jpg"
+              src="/projects/Project-2/Project-3-2-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-3.JPG"
+              src="/projects/Project-2/Project-3-3-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-4.JPG"
+              src="/projects/Project-2/Project-3-4-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-5.JPG"
+              src="/projects/Project-2/Project-3-5-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-6.JPG"
+              src="/projects/Project-2/Project-3-6-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-7.JPG"
+              src="/projects/Project-2/Project-3-7-MD.png"
               alt="not found"
             ></img>
           </div>

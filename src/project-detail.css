@@ -11,19 +11,19 @@
 }
 
 .project-banner.project-1 {
-  background-image: url("/projects/Project-1/project1banner.png");
+  background-image: url("/projects/Project-1/Project-1-Banner-LG.png");
   background-size: cover;
   height: 300px;
 }
 
 .project-banner.project-2 {
-  background-image: url("/projects/Project-2/project2banner.png");
+  background-image: url("/projects/Project-2/Project-2-Banner-LG.png");
   background-size: cover;
   height: 300px;
 }
 
 .project-banner.project-3 {
-  background-image: url("/projects/Project-1/project1banner.png");
+  background-image: url("/projects/Project-1/Project-1-Banner-LG.png");
   background-size: cover;
   height: 300px;
 }
@@ -113,19 +113,19 @@
     margin-top: 50px;
   }
   .project-banner.project-1 {
-    background-image: url("/projects/Project-1/Project-1-Dark.png");
+    background-image: url("/projects/Project-1/Project-1-Dark-LG.png");
     background-size: cover;
     height: 300px;
   }
 
   .project-banner.project-2 {
-    background-image: url("/projects/Project-2/Project-2-Dark.png");
+    background-image: url("/projects/Project-2/Project-2-Dark-LG.png");
     background-size: cover;
     height: 300px;
   }
 
   .project-banner.project-3 {
-    background-image: url("/projects/Project-2/Project-2-Dark.png");
+    background-image: url("/projects/Project-2/Project-2-Dark-LG.png");
     background-size: cover;
     height: 300px;
   }

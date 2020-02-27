@@ -123,68 +123,68 @@ export default class ProjectOne extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-1/IMG-0356.jpg"
+              src="/projects/Project-1/Project-1-1-MD.png"
               alt="not found"
             ></img>
 
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0357.jpg"
+              src="/projects/Project-1/Project-1-2-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-1/IMG-0358.jpg"
+              src="/projects/Project-1/Project-1-3-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0359.jpg"
+              src="/projects/Project-1/Project-1-4-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-1/IMG-0360.jpg"
+              src="/projects/Project-1/Project-1-5-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0361.jpg"
+              src="/projects/Project-1/Project-1-6-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-1/IMG-0362.jpg"
+              src="/projects/Project-1/Project-1-7-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0363.jpg"
+              src="/projects/Project-1/Project-1-8-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-1/IMG-0364.jpg"
+              src="/projects/Project-1/Project-1-9-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0365.jpg"
+              src="/projects/Project-1/Project-1-10-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0366.jpg"
+              src="/projects/Project-1/Project-1-11-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0367.jpg"
+              src="/projects/Project-1/Project-1-12-MD.png"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-1/IMG-0368.jpg"
+              src="/projects/Project-1/Project-1-13-MD.png"
               alt="not found"
             ></img>
           </div>
