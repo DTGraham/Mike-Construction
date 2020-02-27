@@ -123,7 +123,7 @@ export default class ProjectThree extends Component {
           <div class="project-gallery">
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-1.jpg"
+              src="/projects/Project-2/Project-3-1.JPG"
               alt="not found"
             ></img>
             <img
@@ -133,27 +133,27 @@ export default class ProjectThree extends Component {
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-3.jpg"
+              src="/projects/Project-2/Project-3-3.JPG"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-4.jpg"
+              src="/projects/Project-2/Project-3-4.JPG"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-5.jpg"
+              src="/projects/Project-2/Project-3-5.JPG"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-6.jpg"
+              src="/projects/Project-2/Project-3-6.JPG"
               alt="not found"
             ></img>
             <img
               class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-7.jpg"
+              src="/projects/Project-2/Project-3-7.JPG"
               alt="not found"
             ></img>
           </div>
