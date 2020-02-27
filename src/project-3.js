@@ -5,7 +5,10 @@ import $ from "jquery";
 
 export default class ProjectThree extends Component {
   componentDidMount() {
+    // Scroll to top of page to counteract react router
     window.scrollTo(0, 0);
+
+    // Display image when scrolled into view and remove image display when scrolled pas
     $(document).on("scroll", function() {
       var pageTop = $(document).scrollTop();
       var pageBottom = pageTop + $(window).height();
@@ -48,6 +51,82 @@ export default class ProjectThree extends Component {
         }
       }
     });
+
+    // Modal Display Function
+
+    const modal = document.getElementById("myModal");
+
+    // Click controls for modal display. each time a thumbnail is clicked the corresponding image is displayed
+
+    $("img.im-1").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-1-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    $("img.im-2").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-2-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    $("img.im-3").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-3-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    $("img.im-4").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-4-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    $("img.im-5").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-5-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    $("img.im-6").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-6-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    $("img.im-7").on("click", function() {
+      $("img.modal-image").attr(
+        "src",
+        "/projects/Project-2/Project-3-7-Full.JPG"
+      );
+      $("div.modal").css({ display: "block" });
+    });
+
+    // Close the modal display when X is clicked
+
+    $("span.close").on("click", function() {
+      $("div.modal").css({ display: "none" });
+    });
+
+    // When the user clicks anywhere outside of the modal, close it
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
   }
 
   render() {
@@ -121,43 +200,69 @@ export default class ProjectThree extends Component {
         </div>
         <div class="gallery-container">
           <div class="project-gallery">
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-1"
+                src="/projects/Project-2/Project-3-1-MD.png"
+              ></img>
+            </button>
+            <button id="im-2">
+              <img
+                class="project-gallery-image type2 im-2"
+                src="/projects/Project-2/Project-3-2-MD.png"
+                alt="not found"
+              ></img>
+            </button>
+            <button id="im-3">
+              <img
+                class="project-gallery-image type1 im-3"
+                src="/projects/Project-2/Project-3-3-MD.png"
+                alt="not found"
+              ></img>
+            </button>
+            <button id="im-4">
+              <img
+                class="project-gallery-image type2 im-4"
+                src="/projects/Project-2/Project-3-4-MD.png"
+                alt="not found"
+              ></img>
+            </button>
+            <button id="im-5">
+              <img
+                class="project-gallery-image type1 im-5"
+                src="/projects/Project-2/Project-3-5-MD.png"
+                alt="not found"
+              ></img>
+            </button>
+            <button id="im-6">
+              <img
+                class="project-gallery-image type2 im-6"
+                src="/projects/Project-2/Project-3-6-MD.png"
+                alt="not found"
+              ></img>
+            </button>
+            <button id="im-6">
+              <img
+                class="project-gallery-image type1 im-7"
+                src="/projects/Project-2/Project-3-7-MD.png"
+                alt="not found"
+              ></img>
+            </button>
+          </div>
+        </div>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
             <img
-              class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-1-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-2-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-3-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-4-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-5-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-2/Project-3-6-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-2/Project-3-7-MD.png"
+              id="modal-image"
+              class="modal-image"
+              src=""
               alt="not found"
             ></img>
           </div>
         </div>
+
         <div class="navbar navbar-expand-sm navbar-light bg-warning sticky-bottom bottom-navbar">
           <p>Michael Earnest Rusk</p>
           <p>519-373-4402</p>
