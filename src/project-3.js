@@ -65,6 +65,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-1-Full.JPG"
         );
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -73,6 +75,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-2-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -81,6 +85,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-3-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -89,6 +95,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-4-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -97,6 +105,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-5-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -105,6 +115,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-6-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -113,6 +125,8 @@ export default class ProjectThree extends Component {
           "src",
           "/projects/Project-2/Project-3-7-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 

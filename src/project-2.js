@@ -61,6 +61,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-1-Full.JPG"
         );
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -69,6 +71,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-2-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -77,6 +81,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-3-Full.JPG"
         );
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -85,6 +91,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-4-Full.JPG"
         );
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -93,6 +101,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-5-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -101,6 +111,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-6-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -109,7 +121,8 @@ export default class ProjectTwo extends Component {
           "src",
           "/projects/Project-2/Project-2-7-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 

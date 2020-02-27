@@ -62,6 +62,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-1-Full.JPG"
         );
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -70,6 +72,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-2-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -78,6 +82,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-3-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -86,6 +92,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-4-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -94,6 +102,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-5-Full.JPG"
         );
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -102,6 +112,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-6-Full.JPG"
         );
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
 
@@ -110,7 +122,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-7-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
       $("img.im-8").on("click", function() {
@@ -118,7 +131,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-8-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
       $("img.im-9").on("click", function() {
@@ -126,7 +140,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-9-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
       $("img.im-10").on("click", function() {
@@ -134,7 +149,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-10-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
       $("img.im-11").on("click", function() {
@@ -142,7 +158,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-11-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
       $("img.im-12").on("click", function() {
@@ -150,7 +167,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-12-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "600px" });
+        $("img.modal-image").css({ height: "700px" });
         $("div.modal").css({ display: "block" });
       });
       $("img.im-13").on("click", function() {
@@ -158,7 +176,8 @@ export default class ProjectOne extends Component {
           "src",
           "/projects/Project-1/Project-1-13-Full.JPG"
         );
-
+        $("img.modal-image").css({ width: "800px" });
+        $("img.modal-image").css({ height: "600px" });
         $("div.modal").css({ display: "block" });
       });
 
