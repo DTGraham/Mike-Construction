@@ -146,6 +146,13 @@ button {
   height: auto;
 }
 
+.modal-image {
+  width: 700px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 650px) {
   p {
     font-size: 70%;
