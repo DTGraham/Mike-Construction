@@ -8,64 +8,68 @@ class Projects extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     $(document).ready(function() {
-      $("div.p1").on("mouseover", function() {
-        $("div.p1").css(
-          "background-image",
-          "url(/projects/Project-1/Project-1-Dark-LG.png)"
-        );
-        window.$("h1.project-image-contents-1").css("opacity", "1");
-        window.$("input.project-image-contents-1").css("opacity", "1");
-      });
-      $("div.p1").on("mouseout", function() {
-        $("div.p1").css(
-          "background-image",
-          "url(/projects/Project-1/Project-1-1-LG.png)"
-        );
-        $("h1.project-image-contents-1").css("opacity", "0");
-        $("input.project-image-contents-1").css("opacity", "0");
-      });
-      $("div.p2").on("mouseover", function() {
-        $("div.p2").css(
-          "background-image",
-          "url(/projects/Project-2/Project-2-Dark-LG.png)"
-        );
-        $("h1.project-image-contents-2").css("opacity", "1");
-        $("input.project-image-contents-2").css("opacity", "1");
-      });
-      $("div.p2").on("mouseout", function() {
-        $("div.p2").css(
-          "background-image",
-          "url(/projects/Project-2/Project-2-1-LG.png)"
-        );
-        $("h1.project-image-contents-2").css("opacity", "0");
-        $("input.project-image-contents-2").css("opacity", "0");
-      });
-      $("div.p3").on("mouseover", function() {
-        $("div.p3").css(
-          "background-image",
-          "url(/projects/Project-2/Project-3-Dark-LG.png)"
-        );
-        $("h1.project-image-contents-3").css("opacity", "1");
-        $("input.project-image-contents-3").css("opacity", "1");
-      });
-      $("div.p3").on("mouseout", function() {
-        $("div.p3").css(
-          "background-image",
-          "url(/projects/Project-2/Project-3-1-LG.png)"
-        );
-        $("h1.project-image-contents-3").css("opacity", "0");
-        $("input.project-image-contents-3").css("opacity", "0");
-      });
-      $("div.p4").on("mouseover", function() {
-        $("div.p4").css("background-image", "url(/project-4-dark.png)");
-        $("h1.project-image-contents-4").css("opacity", "1");
-        $("input.project-image-contents-4").css("opacity", "1");
-      });
-      $("div.p4").on("mouseout", function() {
-        $("div.p4").css("background-image", "url(/project-4.jpg)");
-        $("h1.project-image-contents-4").css("opacity", "0");
-        $("input.project-image-contents-4").css("opacity", "0");
-      });
+      if (window.innerWidth > 450) {
+        $("div.p1").on("mouseover", function() {
+          $("div.p1").css(
+            "background-image",
+            "url(/projects/Project-1/Project-1-Dark-LG.png)"
+          );
+          window.$("h1.project-image-contents-1").css("opacity", "1");
+          window.$("input.project-image-contents-1").css("opacity", "1");
+        });
+        $("div.p1").on("mouseout", function() {
+          $("div.p1").css(
+            "background-image",
+            "url(/projects/Project-1/Project-1-1-LG.png)"
+          );
+          $("h1.project-image-contents-1").css("opacity", "0");
+          $("input.project-image-contents-1").css("opacity", "0");
+        });
+        $("div.p2").on("mouseover", function() {
+          $("div.p2").css(
+            "background-image",
+            "url(/projects/Project-2/Project-2-Dark-LG.png)"
+          );
+          $("h1.project-image-contents-2").css("opacity", "1");
+          $("input.project-image-contents-2").css("opacity", "1");
+        });
+        $("div.p2").on("mouseout", function() {
+          $("div.p2").css(
+            "background-image",
+            "url(/projects/Project-2/Project-2-1-LG.png)"
+          );
+          $("h1.project-image-contents-2").css("opacity", "0");
+          $("input.project-image-contents-2").css("opacity", "0");
+        });
+        $("div.p3").on("mouseover", function() {
+          $("div.p3").css(
+            "background-image",
+            "url(/projects/Project-2/Project-3-Dark-LG.png)"
+          );
+          $("h1.project-image-contents-3").css("opacity", "1");
+          $("input.project-image-contents-3").css("opacity", "1");
+        });
+        $("div.p3").on("mouseout", function() {
+          $("div.p3").css(
+            "background-image",
+            "url(/projects/Project-2/Project-3-1-LG.png)"
+          );
+          $("h1.project-image-contents-3").css("opacity", "0");
+          $("input.project-image-contents-3").css("opacity", "0");
+        });
+        $("div.p4").on("mouseover", function() {
+          $("div.p4").css("background-image", "url(/project-4-dark.png)");
+          $("h1.project-image-contents-4").css("opacity", "1");
+          $("input.project-image-contents-4").css("opacity", "1");
+        });
+        $("div.p4").on("mouseout", function() {
+          $("div.p4").css("background-image", "url(/project-4.jpg)");
+          $("h1.project-image-contents-4").css("opacity", "0");
+          $("input.project-image-contents-4").css("opacity", "0");
+        });
+      } else {
+        return;
+      }
     });
   }
   render() {
