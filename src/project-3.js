@@ -52,81 +52,90 @@ export default class ProjectThree extends Component {
       }
     });
 
-    // Modal Display Function
+    // Restrict modal display on mobile
+    if (window.innerWidth > 450) {
+      // Modal Display Function
 
-    const modal = document.getElementById("myModal");
+      const modal = document.getElementById("myModal");
 
-    // Click controls for modal display. each time a thumbnail is clicked the corresponding image is displayed
+      // Click controls for modal display. each time a thumbnail is clicked the corresponding image is displayed
 
-    $("img.im-1").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-1-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-1").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-1-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    $("img.im-2").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-2-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-2").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-2-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    $("img.im-3").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-3-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-3").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-3-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    $("img.im-4").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-4-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-4").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-4-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    $("img.im-5").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-5-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-5").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-5-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    $("img.im-6").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-6-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-6").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-6-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    $("img.im-7").on("click", function() {
-      $("img.modal-image").attr(
-        "src",
-        "/projects/Project-2/Project-3-7-Full.JPG"
-      );
-      $("div.modal").css({ display: "block" });
-    });
+      $("img.im-7").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-2/Project-3-7-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
 
-    // Close the modal display when X is clicked
+      // Close the modal display when X is clicked
 
-    $("span.close").on("click", function() {
-      $("div.modal").css({ display: "none" });
-    });
+      $("span.close").on("click", function() {
+        $("div.modal").css({ display: "none" });
+      });
 
-    // When the user clicks anywhere outside of the modal, close it
+      // When the user clicks anywhere outside of the modal, close it
 
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    };
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+      // Exit modal display when user hits escape
+      $(document).keyup(function(e) {
+        if (e.key === "Escape") {
+          modal.style.display = "none";
+        }
+      });
+    }
   }
 
   render() {
@@ -250,7 +259,7 @@ export default class ProjectThree extends Component {
             </button>
           </div>
         </div>
-
+        {/* Modal Display */}
         <div id="myModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>

@@ -6,6 +6,7 @@ import $ from "jquery";
 export default class ProjectOne extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+
     $(document).on("scroll", function() {
       var pageTop = $(document).scrollTop();
       var pageBottom = pageTop + $(window).height();
@@ -48,11 +49,144 @@ export default class ProjectOne extends Component {
         }
       }
     });
-  }
+    // Restrict modal display on mobile
+    if (window.innerWidth > 450) {
+      // Modal Display Function
 
+      const modal = document.getElementById("myModal");
+
+      // Click controls for modal display. each time a thumbnail is clicked the corresponding image is displayed
+
+      $("img.im-1").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-1-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
+
+      $("img.im-2").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-2-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
+
+      $("img.im-3").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-3-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
+
+      $("img.im-4").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-4-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
+
+      $("img.im-5").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-5-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
+
+      $("img.im-6").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-6-Full.JPG"
+        );
+        $("div.modal").css({ display: "block" });
+      });
+
+      $("img.im-7").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-7-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+      $("img.im-8").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-8-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+      $("img.im-9").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-9-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+      $("img.im-10").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-10-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+      $("img.im-11").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-11-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+      $("img.im-12").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-12-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+      $("img.im-13").on("click", function() {
+        $("img.modal-image").attr(
+          "src",
+          "/projects/Project-1/Project-1-13-Full.JPG"
+        );
+
+        $("div.modal").css({ display: "block" });
+      });
+
+      // Close the modal display when X is clicked
+
+      $("span.close").on("click", function() {
+        $("div.modal").css({ display: "none" });
+      });
+
+      // When the user clicks anywhere outside of the modal, close it
+
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+      // Exit modal display when user hits escape key
+      $(document).keyup(function(e) {
+        if (e.key === "Escape") {
+          modal.style.display = "none";
+        }
+      });
+    }
+  }
   render() {
     return (
       <div>
+        <script src="fade.js"></script>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
           <a class="navbar-brand" href="#">
             Michael Earnest Rusk
@@ -92,7 +226,6 @@ export default class ProjectOne extends Component {
             </div>
           </ul>
         </nav>
-
         <div class="project-banner project-1">
           <h1 class="banner-title"> Custom Renovations</h1>
         </div>
@@ -121,81 +254,99 @@ export default class ProjectOne extends Component {
         </div>
         <div class="gallery-container">
           <div class="project-gallery">
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-1"
+                src="/projects/Project-1/Project-1-1-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-2"
+                src="/projects/Project-1/Project-1-2-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-3"
+                src="/projects/Project-1/Project-1-3-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-4"
+                src="/projects/Project-1/Project-1-4-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-5"
+                src="/projects/Project-1/Project-1-5-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-6"
+                src="/projects/Project-1/Project-1-6-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-7"
+                src="/projects/Project-1/Project-1-7-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-8"
+                src="/projects/Project-1/Project-1-8-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-9"
+                src="/projects/Project-1/Project-1-9-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-10"
+                src="/projects/Project-1/Project-1-10-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-11"
+                src="/projects/Project-1/Project-1-11-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-12"
+                src="/projects/Project-1/Project-1-12-MD.png"
+              ></img>
+            </button>
+            <button id="im-1">
+              <img
+                class="project-gallery-image type1 im-13"
+                src="/projects/Project-1/Project-1-13-MD.png"
+              ></img>
+            </button>
+          </div>
+        </div>
+        {/* Modal Display */}
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
             <img
-              class="project-gallery-image type1"
-              src="/projects/Project-1/Project-1-1-MD.png"
-              alt="not found"
-            ></img>
-
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-2-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-1/Project-1-3-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-4-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-1/Project-1-5-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-6-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-1/Project-1-7-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-8-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type1"
-              src="/projects/Project-1/Project-1-9-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-10-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-11-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-12-MD.png"
-              alt="not found"
-            ></img>
-            <img
-              class="project-gallery-image type2"
-              src="/projects/Project-1/Project-1-13-MD.png"
+              id="modal-image"
+              class="modal-image"
+              src=""
               alt="not found"
             ></img>
           </div>
         </div>
-        <div id="myModal" class="modal">
-          <span class="close">&times;</span>
 
-          <img class="modal-content" id="img01"></img>
-
-          <div id="caption"></div>
-        </div>
         <div class="navbar navbar-expand-sm navbar-light bg-warning sticky-bottom bottom-navbar">
           <p>Michael Earnest Rusk</p>
           <p>519-373-4402</p>
